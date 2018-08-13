@@ -33,7 +33,7 @@ type Personalization struct {
 	BCC           []*Email          `json:"bcc,omitempty"`
 	Subject       string            `json:"subject,omitempty"`
 	Headers       map[string]string `json:"headers,omitempty"`
-	Substitutions map[string]string `json:"substitutions,omitempty"`
+	Substitutions map[string]string `json:"dynamic_template_data,omitempty"`
 	CustomArgs    map[string]string `json:"custom_args,omitempty"`
 	Categories    []string          `json:"categories,omitempty"`
 	SendAt        int               `json:"send_at,omitempty"`
