@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/sendgrid/rest" // depends on version 2.2.0
+	"github.com/trvsysadmin/rest" // depends on version 2.2.0
 	"github.com/trvsysadmin/sendgrid-go/helpers/mail"
 )
 
